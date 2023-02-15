@@ -1,0 +1,45 @@
+.Container {
+    //
+    height: 100%;
+}
+
+// .botBody {
+//     //
+// }
+
+.bottextArea {
+    position: absolute;
+    width: 70%;
+    bottom: 10%;
+    left: 12%;
+
+    min-height: auto;
+    padding: 0.32rem 0.75rem;
+    border: 0;
+    background: transparent;
+    border: solid #00000025;
+    box-shadow: 0 0 4px 0px #0000008c;
+    transition: all 0.2s linear;
+    &:focus-visible {
+        outline: none !important;
+        border: 2px solid  #c2dbaf82;
+    }
+}
+
+.botHeader {
+    margin: auto;
+    position: absolute;
+    bottom: 9.5%;
+    // left: 83%;
+    box-shadow: 0px 0px 20px #8778781c;
+    border-radius: 170px;
+    transition: left 1s;
+    &:hover {
+        border-style: solid;
+        border-width: 3px;
+        border-color: #8778781c;
+        border-radius: 170px;
+        box-shadow: 0px 0px 10px #8778781c;
+        transition: all 500ms;
+    }
+}

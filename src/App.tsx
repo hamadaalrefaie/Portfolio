@@ -1,13 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './Components/Headers';
 import MainProfilePhoto from './Components/MainProfilePhoto';
+import HMDBot from './Components/HMDBot';
 
 function App() {
   return (
     <div className="App">
-      <MainProfilePhoto />      
+      <HMDBot />
+      {/* <MainProfilePhoto />       */}
+      {/* <LineDraw /> */}
     </div>
   );
 }
